@@ -1,5 +1,9 @@
 # RESTfulMockExample
 
+How to run:
+Clone and builf the war file.
+Send the : POST/GET as needs (considering below exsample)
+
 test API 1
 =====================
 
