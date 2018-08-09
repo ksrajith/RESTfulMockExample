@@ -28,18 +28,18 @@ public class SmsmessagingJSONService {
                     "        \"deliveryInfoList\": {\n" +
                     "            \"deliveryInfo\": [\n" +
                     "                {\n" +
-                    "                    \"address\": \"tel:+94770616080\",\n" +
+                    "                    \"address\": \"tel:+9xxxx16080\",\n" +
                     "                    \"deliveryStatus\": \"MessageWaiting\",\n" +
-                    "                    \"messageReferenceCode\": \"0a50ef2d9ed441f1a43aca77db4991f3-0\"\n" +
+                    "                    \"messageReferenceCode\": \"0a50xxxx1a43aca77db4991f3-0\"\n" +
                     "                }\n" +
                     "            ],\n" +
-                    "            \"resourceURL\": \"https://operator-url.com/smsmessaging/v2/outbound/tel:+87711/requests/1532711413904SM14021/deliveryInfos\"\n" +
+                    "            \"resourceURL\": \"https://operator-url.com/smsmessaging/v2/outbound/tel:+xxx1/requests/1xx2711413904SM14021/deliveryInfos\"\n" +
                     "        },\n" +
-                    "        \"serverReferenceCode\": \"OB-3003-0a50ef2d9ed441f1a43aca77db4991f3\",\n" +
+                    "        \"serverReferenceCode\": \"OB-3003-xxx1a4xx4991f3\",\n" +
                     "        \"address\": [\n" +
                     "            \"tel:+94770616080\"\n" +
                     "        ],\n" +
-                    "        \"senderAddress\": \"tel:+87711\",\n" +
+                    "        \"senderAddress\": \"tel:+xxx1\",\n" +
                     "        \"clientCorrelator\": \"" + clientCorrelator + "\",\n" +
                     "        \"senderName\": \"\",\n" +
                     "        \"outboundSMSTextMessage\": {\n" +
@@ -49,7 +49,7 @@ public class SmsmessagingJSONService {
                     "            \"notifyURL\": \"http://application.example.com/notifications/DeliveryInfoNotification\",\n" +
                     "            \"callbackData\": \"some-data-useful-to-the-requester\"\n" +
                     "        },\n" +
-                    "        \"resourceURL\": \"https://operator-url.com/smsmessaging/v3/outbound/87711/requests/OB-3003-0a50ef2d9ed441f1a43aca77db4991f3\"\n" +
+                    "        \"resourceURL\": \"https://operator-url.com/smsmessaging/v3/outbound/xxxx1/requests/xxxx-0a50ef2d9ed441f1a43aca77db4991f3\"\n" +
                     "    }\n" +
                     "}";
 
