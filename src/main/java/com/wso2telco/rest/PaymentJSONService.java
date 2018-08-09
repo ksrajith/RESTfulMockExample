@@ -17,7 +17,7 @@ public class PaymentJSONService {
 				"   \"paymentTransactionList\":{  \n" +
 				"      \"amountTransaction\":[  \n" +
 				"         {  \n" +
-				"            \"endUserId\":\"tel:+9412345678\",\n" +
+				"            \"endUserId\":\"tel:+9xxx45678\",\n" +
 				"            \"paymentAmount\":{  \n" +
 				"               \"chargingInformation\":{  \n" +
 				"                  \"amount\":\"9\",\n" +
@@ -25,13 +25,13 @@ public class PaymentJSONService {
 				"                  \"description\":\"Alien Invaders\"\n" +
 				"               }\n" +
 				"            },\n" +
-				"            \"referenceCode\":\"REF-ASM600-239238\",\n" +
-				"            \"serverReferenceCode\":\"tx-a3c0e4e006da40a8a5b5-045972478cc3\",\n" +
-				"            \"resourceURL\":\"https://operatorurl:8243/payment/v1/tel:+93771564812/transactions/amount/789754CHA123\",\n" +
+				"            \"referenceCode\":\"REF-xxx0-2xx8\",\n" +
+				"            \"serverReferenceCode\":\"tx-xxx0a8a5b5-045972478cc3\",\n" +
+				"            \"resourceURL\":\"https://operatorurl:8243/payment/v1/tel:+9xxxx64812/transactions/amount/789754CHA123\",\n" +
 				"            \"transactionOperationStatus\":\"Charged\"\n" +
 				"         },\n" +
 				"         {  \n" +
-				"            \"endUserId\":\" tel:+9412345678\",\n" +
+				"            \"endUserId\":\" tel:+9xxx45678\",\n" +
 				"            \"paymentAmount\":{  \n" +
 				"               \"chargingInformation\":{  \n" +
 				"                  \"amount\":\"6\",\n" +
@@ -39,13 +39,13 @@ public class PaymentJSONService {
 				"                  \"description\":\" Snakes Alive \"\n" +
 				"               }\n" +
 				"            },\n" +
-				"            \"referenceCode\":\"REF-ASM600-2392344\",\n" +
-				"            \"serverReferenceCode\":\"tx-a3c0e4e006da60a8a5b5-044972478cc3\",\n" +
-				"            \"resourceURL\":\"https://operatorurl:8243/payment/v1/tel:+93771564812/transactions/amount/789754CHA123\",\n" +
+				"            \"referenceCode\":\"REF-xxx-2392344\",\n" +
+				"            \"serverReferenceCode\":\"tx-xxx0a8a5b5-044972478cc3\",\n" +
+				"            \"resourceURL\":\"https://operatorurl:xxx/payment/v1/tel:+9xxxx64812/transactions/amount/789754CHA123\",\n" +
 				"            \"transactionOperationStatus\":\"Charged\"\n" +
 				"         }\n" +
 				"      ],\n" +
-				"      \"resourceURL\":\"https://operatorurl:8243/payment/v1/tel:+93771564812/transactions/amount/\"\n" +
+				"      \"resourceURL\":\"https://operatorurl:xxxx/payment/v1/tel:+9xxxx812/transactions/amount/\"\n" +
 				"   }\n" +
 				"}";
  try {
@@ -73,7 +73,7 @@ public class PaymentJSONService {
 			paymentJson = "{  \n" +
 					"   \"amountTransaction\":{  \n" +
 					"      \"clientCorrelator\":\""+clientCorrelator+"\",\n" +
-					"      \"endUserId\":\"tel:+93771564812\",\n" +
+					"      \"endUserId\":\"tel:+9xxxx4812\",\n" +
 					"      \"paymentAmount\":{  \n" +
 					"         \"chargingInformation\":{  \n" +
 					"            \"amount\":\"100\",\n" +
@@ -90,7 +90,7 @@ public class PaymentJSONService {
 					"      },\n" +
 					"      \"referenceCode\":\"REF-1234567\",\n" +
 					"      \"serverReferenceCode\":\"ABC-123\",\n" +
-					"      \"resourceURL\":\"http://54.193.104.15:8290/payment/v1/acr%3AOrangeAPIToken/transactions/amount/abc123\",\n" +
+					"      \"resourceURL\":\"http://xxxxxx:xxxx/payment/v1/axxxToken/transactions/amount/abc123\",\n" +
 					"      \"transactionOperationStatus\":\"Charged\"\n" +
 					"   }\n" +
 					"}";
