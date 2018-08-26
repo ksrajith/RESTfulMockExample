@@ -8,7 +8,7 @@ And sample expected rests which server can response.
 
 How to use
 ===========================
-Download the sample and bulid the arificat -Clone and builf the war file. (using mavn build command)
+Download the sample and bulid the arificat -Clone and builf the war file. (using mavn build command) </br>
 Use webserver (example: tomcat) to deploy the artifact (tomcatmocks.war)
 Send the : POST/GET as needs (consider below example)
 
