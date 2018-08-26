@@ -2,7 +2,7 @@
 
 What this can do
 ============================
-You can use this as http rest mock server samples.
+You can use this as 'RESTful Mock Example' http rest mock server samples.
 This contain both GET and POST methods.
 And sample expected rests which server can response.   
 
