@@ -15,17 +15,17 @@ Send the : POST/GET as needs (consider below example) </br>
 test API 1
 ===========================
 charge:</br>
-Expect: http://localhost:8080/tomcatmocks/payment/{msisdn}/transactions/amount </br>
+Expect: http://localhost:8080/tomcatmocks/rest/payment/{msisdn}/transactions/amount </br>
 Example: </br>
-http://localhost:8080/tomcatmocks/payment/tel%3A%2B9xxxxx16080/transactions/amount </br>
+http://localhost:8080/tomcatmocks/rest/payment/tel%3A%2B9xxxxx16080/transactions/amount </br>
 thread sleep fo the as per the taxamout field </br>
 
 list charge </br>
-Expect: http://localhost:8080/tomcatmocks/payment/{msisdn}/transactions </br>
+Expect: http://localhost:8080/tomcatmocks/rest/payment/{msisdn}/transactions </br>
 Example: </br>
-http://localhost:8080/tomcatmocks/payment/tel%3A%2B9xxxxx16080/transactions </br>
+http://localhost:8080/tomcatmocks/rest/payment/tel%3A%2B9xxxxx16080/transactions </br>
 or </br>
-http://localhost:8080/tomcatmocks/payment/tel%3A%2B9xxxxx16080/transactions?sleeptime=1000 </br>
+http://localhost:8080/tomcatmocks/rest/payment/tel%3A%2B9xxxxx16080/transactions?sleeptime=1000 </br>
 sleeptime - optional </br>
 [sleeptime=1000 thread is sleep for 1000 s] </br>
 
@@ -35,8 +35,8 @@ test API 2
 =====================
 
 send sms request </br>
-Expect: http://localhost:8080/tomcatmocks/smsmessaging/outbound/{shortcode}/requests </br>
+Expect: http://localhost:8080/tomcatmocks/rest/smsmessaging/outbound/{shortcode}/requests </br>
 Example: </br>
-http://localhost:8080/tomcatmocks/smsmessaging/outbound/tel%3A%2Bxxx11/requests </br>
+http://localhost:8080/tomcatmocks/rest/smsmessaging/outbound/tel%3A%2Bxxx11/requests </br>
 thread sleep fo the as per the senderName field </br>
 
